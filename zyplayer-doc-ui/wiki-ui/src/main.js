@@ -2,9 +2,9 @@ import hljs from 'highlight.js'
 import 'highlight.js/styles/googlecode.css'
 // import 'highlight.js/styles/monokai-sublime.css'
 
-import {createApp} from 'vue'
+import { createApp } from 'vue'
 import App from './App.vue'
-import {createRouter, createWebHashHistory} from 'vue-router'
+import { createRouter, createWebHashHistory, useRoute } from 'vue-router'
 
 import ElementUI from 'element-plus'
 import 'element-plus/dist/index.css'
@@ -13,11 +13,25 @@ import Antd from 'ant-design-vue';
 import zhCn from 'element-plus/es/locale/lang/zh-cn'
 import routes from './routes'
 import Vant from 'vant'
-import {createPinia} from 'pinia'
+import userApi from '@/assets/api/user'
+import { createPinia } from 'pinia'
 
+const route = useRoute();
 const router = createRouter({
 	history: createWebHashHistory(),
 	routes,
+});
+router.beforeEach(async (to, from, next) => {
+	// console.log(to);
+	// console.log(route);
+	let accessToken = to.query.accessToken;
+	if (!accessToken) {
+		next();
+	} else {
+		const awaitMin = await userApi.tokenAuth({ accessToken })
+		next();
+	}
+
 });
 const app = createApp(App);
 app.config.productionTip = false;

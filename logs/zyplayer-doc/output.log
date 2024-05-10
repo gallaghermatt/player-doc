@@ -1,0 +1,754 @@
+[2024-05-10 16:53:42][INFO ][Application] Starting Application on taozhuodeMacBook-Pro.local with PID 3014 (/Users/taozhuo/IdeaProjects/taozhuo/github/player-doc/zyplayer-doc-manage/target/classes started by taozhuo in /Users/taozhuo/IdeaProjects/taozhuo/github/player-doc)
+[2024-05-10 16:53:42][INFO ][Application] No active profile set, falling back to default profiles: default
+[2024-05-10 16:53:43][INFO ][TomcatWebServer] Tomcat initialized with port(s): 8083 (http)
+[2024-05-10 16:53:43][INFO ][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8083"]
+[2024-05-10 16:53:43][INFO ][StandardService] Starting service [Tomcat]
+[2024-05-10 16:53:43][INFO ][StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2024-05-10 16:53:43][INFO ][[/]] Initializing Spring embedded WebApplicationContext
+[2024-05-10 16:53:43][INFO ][ContextLoader] Root WebApplicationContext: initialization completed in 1131 ms
+[2024-05-10 16:53:45][INFO ][DruidDataSource] {dataSource-1,zyplayer-doc-db-1} inited
+[2024-05-10 16:53:46][WARN ][ReflectLambdaMeta] Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @146dfe6
+[2024-05-10 16:53:46][INFO ][SqlLogInterceptor] SELECT id,config_key,config_value,created,create_user_id,create_user,modified,modify_user_id,modify_user,yn FROM system_config WHERE (config_key = 'doc_system_version')
+[2024-05-10 16:53:46][INFO ][UpgradeSystemDdlTask] 当前数据库DDL已是最新版本：1.1.6
+[2024-05-10 16:53:46][INFO ][ThreadPoolTaskExecutor] Initializing ExecutorService
+[2024-05-10 16:53:46][INFO ][ThreadPoolTaskExecutor] Initializing ExecutorService 'myTaskExecutor'
+[2024-05-10 16:53:46][INFO ][ThreadPoolTaskScheduler] Initializing ExecutorService 'taskScheduler'
+[2024-05-10 16:53:46][INFO ][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8083"]
+[2024-05-10 16:53:46][INFO ][TomcatWebServer] Tomcat started on port(s): 8083 (http) with context path ''
+[2024-05-10 16:53:46][INFO ][Application] Started Application in 4.683 seconds (JVM running for 5.558)
+[2024-05-10 16:53:46][INFO ][ZyplayerConsolePrint] 
+--------------------------------------------------------------
+		     zyplayer-doc启动完成，当前版本：1.1.6
+	访问地址：http://127.0.0.1:8083/
+
+				↓zyplayer-doc模块的启动情况
+				------------------------
+                 Db模块启动情况为：启动成功
+               Wiki模块启动情况为：启动成功
+                Api模块启动情况为：启动成功
+--------------------------------------------------------------
+	
+[2024-05-10 16:54:31][INFO ][[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 16:54:31][INFO ][DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[2024-05-10 16:54:31][INFO ][DispatcherServlet] Completed initialization in 8 ms
+[2024-05-10 16:54:32][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：57ms，URI：/system/info/upgrade
+[2024-05-10 16:54:35][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：11ms，URI：/system/info/upgrade
+[2024-05-10 16:54:56][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：31ms，URI：/system/info/upgrade
+[2024-05-10 17:18:48][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：5ms，URI：/system/info/upgrade
+[2024-05-10 17:19:01][INFO ][ThreadPoolTaskScheduler] Shutting down ExecutorService 'taskScheduler'
+[2024-05-10 17:19:01][INFO ][ThreadPoolTaskExecutor] Shutting down ExecutorService 'myTaskExecutor'
+[2024-05-10 17:19:01][INFO ][DruidDataSource] {dataSource-1} closing ...
+[2024-05-10 17:19:01][INFO ][DruidDataSource] {dataSource-1} closed
+[2024-05-10 17:19:05][INFO ][Application] Starting Application on taozhuodeMacBook-Pro.local with PID 15271 (/Users/taozhuo/IdeaProjects/taozhuo/github/player-doc/zyplayer-doc-manage/target/classes started by taozhuo in /Users/taozhuo/IdeaProjects/taozhuo/github/player-doc)
+[2024-05-10 17:19:05][INFO ][Application] No active profile set, falling back to default profiles: default
+[2024-05-10 17:19:06][INFO ][TomcatWebServer] Tomcat initialized with port(s): 8083 (http)
+[2024-05-10 17:19:06][INFO ][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8083"]
+[2024-05-10 17:19:06][INFO ][StandardService] Starting service [Tomcat]
+[2024-05-10 17:19:06][INFO ][StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2024-05-10 17:19:06][INFO ][[/]] Initializing Spring embedded WebApplicationContext
+[2024-05-10 17:19:06][INFO ][ContextLoader] Root WebApplicationContext: initialization completed in 718 ms
+[2024-05-10 17:19:07][INFO ][DruidDataSource] {dataSource-1,zyplayer-doc-db-1} inited
+[2024-05-10 17:19:07][WARN ][ReflectLambdaMeta] Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @146dfe6
+[2024-05-10 17:19:07][INFO ][SqlLogInterceptor] SELECT id,config_key,config_value,created,create_user_id,create_user,modified,modify_user_id,modify_user,yn FROM system_config WHERE (config_key = 'doc_system_version')
+[2024-05-10 17:19:07][INFO ][UpgradeSystemDdlTask] 当前数据库DDL已是最新版本：1.1.6
+[2024-05-10 17:19:08][INFO ][ThreadPoolTaskExecutor] Initializing ExecutorService
+[2024-05-10 17:19:08][INFO ][ThreadPoolTaskExecutor] Initializing ExecutorService 'myTaskExecutor'
+[2024-05-10 17:19:08][INFO ][ThreadPoolTaskScheduler] Initializing ExecutorService 'taskScheduler'
+[2024-05-10 17:19:08][INFO ][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8083"]
+[2024-05-10 17:19:08][INFO ][TomcatWebServer] Tomcat started on port(s): 8083 (http) with context path ''
+[2024-05-10 17:19:08][INFO ][Application] Started Application in 3.085 seconds (JVM running for 3.629)
+[2024-05-10 17:19:08][INFO ][ZyplayerConsolePrint] 
+--------------------------------------------------------------
+		     zyplayer-doc启动完成，当前版本：1.1.6
+	访问地址：http://127.0.0.1:8083/
+
+				↓zyplayer-doc模块的启动情况
+				------------------------
+                 Db模块启动情况为：启动成功
+               Wiki模块启动情况为：启动成功
+                Api模块启动情况为：启动成功
+--------------------------------------------------------------
+	
+[2024-05-10 17:19:12][INFO ][[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 17:19:12][INFO ][DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[2024-05-10 17:19:12][INFO ][DispatcherServlet] Completed initialization in 5 ms
+[2024-05-10 17:19:12][ERROR][GlobalHandlerExceptionResolver] ---自定义异常处理---
+java.lang.NullPointerException: Cannot invoke "com.zyplayer.doc.data.config.security.DocUserDetails.getUserId()" because "currentUser" is null
+	at com.zyplayer.doc.wiki.controller.WikiSpaceController.lambda$list$0(WikiSpaceController.java:61)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.lambda$addNestedCondition$33(AbstractWrapper.java:458)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.maybeDo(AbstractWrapper.java:516)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.addNestedCondition(AbstractWrapper.java:456)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.and(AbstractWrapper.java:215)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.and(AbstractWrapper.java:47)
+	at com.baomidou.mybatisplus.core.conditions.interfaces.Nested.and(Nested.java:35)
+	at com.zyplayer.doc.wiki.controller.WikiSpaceController.lambda$list$1(WikiSpaceController.java:61)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.lambda$addNestedCondition$33(AbstractWrapper.java:458)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.maybeDo(AbstractWrapper.java:516)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.addNestedCondition(AbstractWrapper.java:456)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.and(AbstractWrapper.java:215)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.and(AbstractWrapper.java:47)
+	at com.baomidou.mybatisplus.core.conditions.interfaces.Nested.and(Nested.java:35)
+	at com.zyplayer.doc.wiki.controller.WikiSpaceController.list(WikiSpaceController.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[2024-05-10 17:19:16][ERROR][GlobalHandlerExceptionResolver] ---自定义异常处理---
+java.lang.NullPointerException: Cannot invoke "com.zyplayer.doc.data.config.security.DocUserDetails.getUserId()" because "currentUser" is null
+	at com.zyplayer.doc.wiki.controller.WikiSpaceController.lambda$list$0(WikiSpaceController.java:61)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.lambda$addNestedCondition$33(AbstractWrapper.java:458)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.maybeDo(AbstractWrapper.java:516)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.addNestedCondition(AbstractWrapper.java:456)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.and(AbstractWrapper.java:215)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.and(AbstractWrapper.java:47)
+	at com.baomidou.mybatisplus.core.conditions.interfaces.Nested.and(Nested.java:35)
+	at com.zyplayer.doc.wiki.controller.WikiSpaceController.lambda$list$1(WikiSpaceController.java:61)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.lambda$addNestedCondition$33(AbstractWrapper.java:458)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.maybeDo(AbstractWrapper.java:516)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.addNestedCondition(AbstractWrapper.java:456)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.and(AbstractWrapper.java:215)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.and(AbstractWrapper.java:47)
+	at com.baomidou.mybatisplus.core.conditions.interfaces.Nested.and(Nested.java:35)
+	at com.zyplayer.doc.wiki.controller.WikiSpaceController.list(WikiSpaceController.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[2024-05-10 17:19:26][ERROR][GlobalHandlerExceptionResolver] ---自定义异常处理---
+java.lang.NullPointerException: Cannot invoke "com.zyplayer.doc.data.config.security.DocUserDetails.getUserId()" because "currentUser" is null
+	at com.zyplayer.doc.wiki.controller.WikiSpaceController.lambda$list$0(WikiSpaceController.java:61)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.lambda$addNestedCondition$33(AbstractWrapper.java:458)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.maybeDo(AbstractWrapper.java:516)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.addNestedCondition(AbstractWrapper.java:456)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.and(AbstractWrapper.java:215)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.and(AbstractWrapper.java:47)
+	at com.baomidou.mybatisplus.core.conditions.interfaces.Nested.and(Nested.java:35)
+	at com.zyplayer.doc.wiki.controller.WikiSpaceController.lambda$list$1(WikiSpaceController.java:61)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.lambda$addNestedCondition$33(AbstractWrapper.java:458)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.maybeDo(AbstractWrapper.java:516)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.addNestedCondition(AbstractWrapper.java:456)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.and(AbstractWrapper.java:215)
+	at com.baomidou.mybatisplus.core.conditions.AbstractWrapper.and(AbstractWrapper.java:47)
+	at com.baomidou.mybatisplus.core.conditions.interfaces.Nested.and(Nested.java:35)
+	at com.zyplayer.doc.wiki.controller.WikiSpaceController.list(WikiSpaceController.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[2024-05-10 17:19:54][INFO ][ThreadPoolTaskScheduler] Shutting down ExecutorService 'taskScheduler'
+[2024-05-10 17:19:54][INFO ][ThreadPoolTaskExecutor] Shutting down ExecutorService 'myTaskExecutor'
+[2024-05-10 17:19:54][INFO ][DruidDataSource] {dataSource-1} closing ...
+[2024-05-10 17:19:54][INFO ][DruidDataSource] {dataSource-1} closed
+[2024-05-10 17:19:57][INFO ][Application] Starting Application on taozhuodeMacBook-Pro.local with PID 15629 (/Users/taozhuo/IdeaProjects/taozhuo/github/player-doc/zyplayer-doc-manage/target/classes started by taozhuo in /Users/taozhuo/IdeaProjects/taozhuo/github/player-doc)
+[2024-05-10 17:19:57][INFO ][Application] No active profile set, falling back to default profiles: default
+[2024-05-10 17:19:58][INFO ][TomcatWebServer] Tomcat initialized with port(s): 8083 (http)
+[2024-05-10 17:19:58][INFO ][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8083"]
+[2024-05-10 17:19:58][INFO ][StandardService] Starting service [Tomcat]
+[2024-05-10 17:19:58][INFO ][StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2024-05-10 17:19:58][INFO ][[/]] Initializing Spring embedded WebApplicationContext
+[2024-05-10 17:19:58][INFO ][ContextLoader] Root WebApplicationContext: initialization completed in 712 ms
+[2024-05-10 17:19:59][INFO ][DruidDataSource] {dataSource-1,zyplayer-doc-db-1} inited
+[2024-05-10 17:19:59][WARN ][ReflectLambdaMeta] Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @146dfe6
+[2024-05-10 17:19:59][INFO ][SqlLogInterceptor] SELECT id,config_key,config_value,created,create_user_id,create_user,modified,modify_user_id,modify_user,yn FROM system_config WHERE (config_key = 'doc_system_version')
+[2024-05-10 17:19:59][INFO ][UpgradeSystemDdlTask] 当前数据库DDL已是最新版本：1.1.6
+[2024-05-10 17:20:00][INFO ][ThreadPoolTaskExecutor] Initializing ExecutorService
+[2024-05-10 17:20:00][INFO ][ThreadPoolTaskExecutor] Initializing ExecutorService 'myTaskExecutor'
+[2024-05-10 17:20:00][INFO ][ThreadPoolTaskScheduler] Initializing ExecutorService 'taskScheduler'
+[2024-05-10 17:20:00][INFO ][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8083"]
+[2024-05-10 17:20:00][INFO ][TomcatWebServer] Tomcat started on port(s): 8083 (http) with context path ''
+[2024-05-10 17:20:00][INFO ][Application] Started Application in 3.031 seconds (JVM running for 3.464)
+[2024-05-10 17:20:00][INFO ][ZyplayerConsolePrint] 
+--------------------------------------------------------------
+		     zyplayer-doc启动完成，当前版本：1.1.6
+	访问地址：http://127.0.0.1:8083/
+
+				↓zyplayer-doc模块的启动情况
+				------------------------
+                 Db模块启动情况为：启动成功
+               Wiki模块启动情况为：启动成功
+                Api模块启动情况为：启动成功
+--------------------------------------------------------------
+	
+[2024-05-10 17:20:04][INFO ][[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 17:20:04][INFO ][DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[2024-05-10 17:20:04][INFO ][DispatcherServlet] Completed initialization in 5 ms
+[2024-05-10 17:20:04][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：44ms，URI：/system/info/upgrade
+[2024-05-10 17:20:22][INFO ][ThreadPoolTaskScheduler] Shutting down ExecutorService 'taskScheduler'
+[2024-05-10 17:20:22][INFO ][ThreadPoolTaskExecutor] Shutting down ExecutorService 'myTaskExecutor'
+[2024-05-10 17:20:22][INFO ][DruidDataSource] {dataSource-1} closing ...
+[2024-05-10 17:20:22][INFO ][DruidDataSource] {dataSource-1} closed
+[2024-05-10 17:20:31][INFO ][Application] Starting Application on taozhuodeMacBook-Pro.local with PID 15870 (/Users/taozhuo/IdeaProjects/taozhuo/github/player-doc/zyplayer-doc-manage/target/classes started by taozhuo in /Users/taozhuo/IdeaProjects/taozhuo/github/player-doc)
+[2024-05-10 17:20:31][INFO ][Application] No active profile set, falling back to default profiles: default
+[2024-05-10 17:20:32][INFO ][TomcatWebServer] Tomcat initialized with port(s): 8083 (http)
+[2024-05-10 17:20:32][INFO ][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8083"]
+[2024-05-10 17:20:32][INFO ][StandardService] Starting service [Tomcat]
+[2024-05-10 17:20:32][INFO ][StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2024-05-10 17:20:32][INFO ][[/]] Initializing Spring embedded WebApplicationContext
+[2024-05-10 17:20:32][INFO ][ContextLoader] Root WebApplicationContext: initialization completed in 736 ms
+[2024-05-10 17:20:33][INFO ][DruidDataSource] {dataSource-1,zyplayer-doc-db-1} inited
+[2024-05-10 17:20:34][WARN ][ReflectLambdaMeta] Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @146dfe6
+[2024-05-10 17:20:34][INFO ][SqlLogInterceptor] SELECT id,config_key,config_value,created,create_user_id,create_user,modified,modify_user_id,modify_user,yn FROM system_config WHERE (config_key = 'doc_system_version')
+[2024-05-10 17:20:34][INFO ][UpgradeSystemDdlTask] 当前数据库DDL已是最新版本：1.1.6
+[2024-05-10 17:20:34][INFO ][ThreadPoolTaskExecutor] Initializing ExecutorService
+[2024-05-10 17:20:34][INFO ][ThreadPoolTaskExecutor] Initializing ExecutorService 'myTaskExecutor'
+[2024-05-10 17:20:34][INFO ][ThreadPoolTaskScheduler] Initializing ExecutorService 'taskScheduler'
+[2024-05-10 17:20:34][INFO ][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8083"]
+[2024-05-10 17:20:34][INFO ][TomcatWebServer] Tomcat started on port(s): 8083 (http) with context path ''
+[2024-05-10 17:20:34][INFO ][Application] Started Application in 3.261 seconds (JVM running for 3.74)
+[2024-05-10 17:20:34][INFO ][ZyplayerConsolePrint] 
+--------------------------------------------------------------
+		     zyplayer-doc启动完成，当前版本：1.1.6
+	访问地址：http://127.0.0.1:8083/
+
+				↓zyplayer-doc模块的启动情况
+				------------------------
+                 Db模块启动情况为：启动成功
+               Wiki模块启动情况为：启动成功
+                Api模块启动情况为：启动成功
+--------------------------------------------------------------
+	
+[2024-05-10 17:20:39][INFO ][[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 17:20:39][INFO ][DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[2024-05-10 17:20:39][INFO ][DispatcherServlet] Completed initialization in 4 ms
+[2024-05-10 17:20:39][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：45ms，URI：/system/info/upgrade
+[2024-05-10 17:20:45][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：25ms，URI：/system/info/upgrade
+[2024-05-10 17:20:58][INFO ][ThreadPoolTaskScheduler] Shutting down ExecutorService 'taskScheduler'
+[2024-05-10 17:20:58][INFO ][ThreadPoolTaskExecutor] Shutting down ExecutorService 'myTaskExecutor'
+[2024-05-10 17:20:58][INFO ][DruidDataSource] {dataSource-1} closing ...
+[2024-05-10 17:20:58][INFO ][DruidDataSource] {dataSource-1} closed
+[2024-05-10 17:28:33][INFO ][Application] Starting Application on taozhuodeMacBook-Pro.local with PID 19297 (/Users/taozhuo/IdeaProjects/taozhuo/github/player-doc/zyplayer-doc-manage/target/classes started by taozhuo in /Users/taozhuo/IdeaProjects/taozhuo/github/player-doc)
+[2024-05-10 17:28:33][INFO ][Application] No active profile set, falling back to default profiles: default
+[2024-05-10 17:28:34][INFO ][TomcatWebServer] Tomcat initialized with port(s): 8083 (http)
+[2024-05-10 17:28:34][INFO ][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8083"]
+[2024-05-10 17:28:34][INFO ][StandardService] Starting service [Tomcat]
+[2024-05-10 17:28:34][INFO ][StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2024-05-10 17:28:34][INFO ][[/]] Initializing Spring embedded WebApplicationContext
+[2024-05-10 17:28:34][INFO ][ContextLoader] Root WebApplicationContext: initialization completed in 730 ms
+[2024-05-10 17:28:35][INFO ][DruidDataSource] {dataSource-1,zyplayer-doc-db-1} inited
+[2024-05-10 17:28:35][WARN ][ReflectLambdaMeta] Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @146dfe6
+[2024-05-10 17:28:35][INFO ][SqlLogInterceptor] SELECT id,config_key,config_value,created,create_user_id,create_user,modified,modify_user_id,modify_user,yn FROM system_config WHERE (config_key = 'doc_system_version')
+[2024-05-10 17:28:35][INFO ][UpgradeSystemDdlTask] 当前数据库DDL已是最新版本：1.1.6
+[2024-05-10 17:28:35][INFO ][ThreadPoolTaskExecutor] Initializing ExecutorService
+[2024-05-10 17:28:35][INFO ][ThreadPoolTaskExecutor] Initializing ExecutorService 'myTaskExecutor'
+[2024-05-10 17:28:36][INFO ][ThreadPoolTaskScheduler] Initializing ExecutorService 'taskScheduler'
+[2024-05-10 17:28:36][INFO ][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8083"]
+[2024-05-10 17:28:36][INFO ][TomcatWebServer] Tomcat started on port(s): 8083 (http) with context path ''
+[2024-05-10 17:28:36][INFO ][Application] Started Application in 2.9 seconds (JVM running for 3.453)
+[2024-05-10 17:28:36][INFO ][ZyplayerConsolePrint] 
+--------------------------------------------------------------
+		     zyplayer-doc启动完成，当前版本：1.1.6
+	访问地址：http://127.0.0.1:8083/
+
+				↓zyplayer-doc模块的启动情况
+				------------------------
+                 Db模块启动情况为：启动成功
+               Wiki模块启动情况为：启动成功
+                Api模块启动情况为：启动成功
+--------------------------------------------------------------
+	
+[2024-05-10 17:28:51][INFO ][[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 17:28:51][INFO ][DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[2024-05-10 17:28:51][INFO ][DispatcherServlet] Completed initialization in 6 ms
+[2024-05-10 17:28:51][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：53ms，URI：/logout
+[2024-05-10 17:28:51][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：9ms，URI：/system/info/upgrade
+[2024-05-10 17:28:55][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：1ms，URI：/system/info/upgrade
+[2024-05-10 17:29:00][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：25ms，URI：/tokenAuth
+[2024-05-10 17:29:01][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：4ms，URI：/tokenAuth
+[2024-05-10 17:29:02][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：4ms，URI：/tokenAuth
+[2024-05-10 17:29:02][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：1ms，URI：/tokenAuth
+[2024-05-10 17:29:02][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：3ms，URI：/tokenAuth
+[2024-05-10 17:29:02][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：1ms，URI：/tokenAuth
+[2024-05-10 17:29:15][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：5ms，URI：/tokenAuth
+[2024-05-10 17:29:47][INFO ][SqlLogInterceptor] SELECT id,user_no,password,user_name,email,avatar,del_flag,create_uid,creation_time,update_time,phone,sex FROM user_info WHERE (user_no = 'zyplayer' AND del_flag = 0)
+[2024-05-10 17:29:47][INFO ][SqlLogInterceptor] SELECT id,user_id,auth_id,create_uid,update_uid,del_flag,creation_time,update_time,sys_type,sys_module_type,sys_module_id FROM user_auth WHERE (user_id = 1 AND del_flag = '0')
+[2024-05-10 17:29:47][INFO ][SqlLogInterceptor] SELECT id,auth_name,auth_desc,can_edit,create_uid,creation_time FROM auth_info WHERE id IN ( 1 , 2 , 10 )
+[2024-05-10 17:29:47][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：105ms，URI：/login
+[2024-05-10 17:29:48][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：1ms，URI：/tokenAuth
+[2024-05-10 17:29:48][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：3ms，URI：/system/info/upgrade
+[2024-05-10 17:29:48][INFO ][SqlLogInterceptor] SELECT id,space_id,user_id,create_time,del_flag FROM wiki_space_favorite WHERE (user_id = 1 AND del_flag = 0)
+[2024-05-10 17:29:48][INFO ][SqlLogInterceptor] SELECT id,user_id,name,value,create_time,del_flag FROM user_setting WHERE (user_id = 1 AND name = 'wiki_only_show_favorite' AND del_flag = 0)
+[2024-05-10 17:29:48][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 17:29:48][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 17:29:48][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：104ms，URI：/zyplayer-doc-wiki/space/list
+[2024-05-10 17:29:48][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 17:29:48][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 17:29:48][INFO ][SqlLogInterceptor] select a.space_id as spaceId, a.id as pageId, a.zan_num as zanNum, a.view_num as viewNum, a.create_user_name as createUserName, a.update_user_name as updateUserName, a.create_time as createTime, a.update_time as updateTime, a.name as pageTitle, b.preview as previewContent from wiki_page a join wiki_page_content b on b.page_id = a.id where a.del_flag = 0 and a.editor_type != 0 and a.space_id in ( 1 ) order by a.update_time desc limit 15
+[2024-05-10 17:29:48][INFO ][SqlLogInterceptor] SELECT a.*,b.tag_name AS tags,b.share_status as shareStatus from wiki_page a left join wiki_page_template b on a.space_id =b.space_id and a.id = b.page_id where a.del_flag = 0 and a.space_id =1
+[2024-05-10 17:29:48][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：35ms，URI：/zyplayer-doc-wiki/page/news
+[2024-05-10 17:29:48][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：42ms，URI：/zyplayer-doc-wiki/page/list
+[2024-05-10 17:30:49][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 17:30:49][INFO ][SqlLogInterceptor] select max(seq_no) from wiki_page where space_id = 1 and parent_id=0 and del_flag=0
+[2024-05-10 17:30:49][INFO ][SqlLogInterceptor] INSERT INTO wiki_page ( space_id, name, parent_id, create_user_id, create_user_name, create_time, update_time, seq_no, editor_type ) VALUES ( 1, '新建文档', 0, 1, '系统管理员', '2024年5月10日下午5:30:49', '2024年5月10日下午5:30:49', 2, 1 )
+[2024-05-10 17:30:49][INFO ][SqlLogInterceptor] update wiki_page a join ( SELECT id, @rownum := @rownum + 1 AS rownum FROM (SELECT @rownum := 0) t, wiki_page where parent_id = 0 and space_id = 1 ORDER BY seq_no ASC, update_time DESC ) b on a.id = b.id set seq_no = b.rownum where a.parent_id = 0 and a.space_id = 1;
+[2024-05-10 17:30:49][INFO ][SqlLogInterceptor] INSERT INTO wiki_page_content ( page_id, content, create_user_id, create_user_name, create_time, preview ) VALUES ( 2, '', 1, '系统管理员', '2024年5月10日下午5:30:49', '' )
+[2024-05-10 17:30:49][INFO ][SqlLogInterceptor] INSERT INTO user_message ( sys_type, msg_type, data_id, data_desc, msg_content, msg_status, operator_user_id, operator_user_name, accept_user_id, creation_time ) VALUES ( 2, 2, 2, '新建文档', '您创建了‘新建文档’', 1, 1, '系统管理员', 1, '2024年5月10日下午5:30:49' )
+[2024-05-10 17:30:49][INFO ][SqlLogInterceptor] INSERT INTO wiki_page_history ( page_id, create_user_id, create_user_name, create_time, del_flag, content ) VALUES ( 2, 1, '系统管理员', '2024年5月10日下午5:30:49', 0, [B@fdf0ba3 )
+[2024-05-10 17:30:49][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：224ms，URI：/zyplayer-doc-wiki/page/update
+[2024-05-10 17:30:49][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 17:30:49][INFO ][SqlLogInterceptor] SELECT a.*,b.tag_name AS tags,b.share_status as shareStatus from wiki_page a left join wiki_page_template b on a.space_id =b.space_id and a.id = b.page_id where a.del_flag = 0 and a.space_id =1
+[2024-05-10 17:30:49][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：15ms，URI：/zyplayer-doc-wiki/page/list
+[2024-05-10 17:30:49][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：1ms，URI：/zyplayer-doc-wiki/page/lock
+[2024-05-10 17:30:49][INFO ][SqlLogInterceptor] SELECT id,space_id,name,parent_id,node_type,zan_num,edit_type,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,view_num,seq_no,editor_type FROM wiki_page WHERE id=2 
+[2024-05-10 17:30:49][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 17:30:49][INFO ][SqlLogInterceptor] SELECT id,page_id,content,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,preview FROM wiki_page_content WHERE (page_id = 2)
+[2024-05-10 17:30:49][INFO ][SqlLogInterceptor] SELECT id,page_id,file_name,file_url,uuid,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,download_num,file_size,file_source FROM wiki_page_file WHERE (page_id = 2 AND del_flag = 0 AND file_source = 1)
+[2024-05-10 17:30:49][INFO ][SqlLogInterceptor] SELECT id,page_id,comment_id,create_user_id,create_user_name,create_time,yn FROM wiki_page_zan WHERE (page_id = 2 AND create_user_id = 1 AND yn = 1)
+[2024-05-10 17:30:49][INFO ][SqlLogInterceptor] UPDATE wiki_page SET view_num=1 WHERE id=2
+[2024-05-10 17:30:49][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：72ms，URI：/zyplayer-doc-wiki/page/detail
+[2024-05-10 17:30:52][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：5ms，URI：/zyplayer-doc-wiki/page/unlock
+[2024-05-10 17:30:52][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 17:30:52][INFO ][SqlLogInterceptor] select a.space_id as spaceId, a.id as pageId, a.zan_num as zanNum, a.view_num as viewNum, a.create_user_name as createUserName, a.update_user_name as updateUserName, a.create_time as createTime, a.update_time as updateTime, a.name as pageTitle, b.preview as previewContent from wiki_page a join wiki_page_content b on b.page_id = a.id where a.del_flag = 0 and a.editor_type != 0 and a.space_id in ( 1 ) order by a.update_time desc limit 15
+[2024-05-10 17:30:52][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：16ms，URI：/zyplayer-doc-wiki/page/news
+[2024-05-10 17:30:57][INFO ][SqlLogInterceptor] SELECT id,user_id,name,value,create_time,del_flag FROM user_setting WHERE (user_id = 1 AND name = 'wiki_only_show_favorite')
+[2024-05-10 17:30:57][INFO ][SqlLogInterceptor] SELECT id,space_id,user_id,create_time,del_flag FROM wiki_space_favorite WHERE (user_id = 1 AND del_flag = 0)
+[2024-05-10 17:30:57][INFO ][SqlLogInterceptor] SELECT id,user_no,password,user_name,email,avatar,del_flag,create_uid,creation_time,update_time,phone,sex FROM user_info WHERE id=1 
+[2024-05-10 17:30:57][INFO ][SqlLogInterceptor] SELECT id,user_id,name,value,create_time,del_flag FROM user_setting WHERE (user_id = 1 AND name = 'wiki_only_show_favorite' AND del_flag = 0)
+[2024-05-10 17:30:57][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 17:30:57][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：19ms，URI：/user/info/selfInfo
+[2024-05-10 17:30:57][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：21ms，URI：/zyplayer-doc-wiki/space/setting/list
+[2024-05-10 17:30:57][INFO ][SqlLogInterceptor] SELECT id,user_id,name,value,create_time,del_flag FROM user_setting WHERE id=1 
+[2024-05-10 17:30:57][INFO ][SqlLogInterceptor] UPDATE user_setting SET user_id=1, name='wiki_only_show_favorite', value='0', del_flag=0 WHERE id=1
+[2024-05-10 17:30:57][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 17:30:57][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：35ms，URI：/zyplayer-doc-wiki/space/list
+[2024-05-10 17:30:57][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：41ms，URI：/zyplayer-doc-wiki/space/setting/update
+[2024-05-10 17:30:57][INFO ][SqlLogInterceptor] SELECT id,space_id,user_id,create_time,del_flag FROM wiki_space_favorite WHERE (user_id = 1 AND del_flag = 0)
+[2024-05-10 17:30:57][INFO ][SqlLogInterceptor] SELECT id,user_id,name,value,create_time,del_flag FROM user_setting WHERE (user_id = 1 AND name = 'wiki_only_show_favorite' AND del_flag = 0)
+[2024-05-10 17:30:57][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 17:30:57][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 17:30:57][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：17ms，URI：/zyplayer-doc-wiki/space/list
+[2024-05-10 17:30:57][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 17:30:57][INFO ][SqlLogInterceptor] SELECT a.*,b.tag_name AS tags,b.share_status as shareStatus from wiki_page a left join wiki_page_template b on a.space_id =b.space_id and a.id = b.page_id where a.del_flag = 0 and a.space_id =1
+[2024-05-10 17:30:57][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：7ms，URI：/zyplayer-doc-wiki/page/list
+[2024-05-10 17:31:35][INFO ][SqlLogInterceptor] SELECT id,space_id,user_id,create_time,del_flag FROM wiki_space_favorite WHERE (user_id = 1 AND del_flag = 0)
+[2024-05-10 17:31:35][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 17:31:35][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 17:31:35][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：33ms，URI：/zyplayer-doc-wiki/space/list
+[2024-05-10 17:34:24][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 17:34:24][INFO ][SqlLogInterceptor] select max(seq_no) from wiki_page where space_id = 1 and parent_id=0 and del_flag=0
+[2024-05-10 17:34:24][INFO ][SqlLogInterceptor] INSERT INTO wiki_page ( space_id, name, parent_id, create_user_id, create_user_name, create_time, update_time, seq_no, editor_type ) VALUES ( 1, '新建文档', 0, 1, '系统管理员', '2024年5月10日下午5:34:24', '2024年5月10日下午5:34:24', 3, 1 )
+[2024-05-10 17:34:24][INFO ][SqlLogInterceptor] update wiki_page a join ( SELECT id, @rownum := @rownum + 1 AS rownum FROM (SELECT @rownum := 0) t, wiki_page where parent_id = 0 and space_id = 1 ORDER BY seq_no ASC, update_time DESC ) b on a.id = b.id set seq_no = b.rownum where a.parent_id = 0 and a.space_id = 1;
+[2024-05-10 17:34:24][INFO ][SqlLogInterceptor] INSERT INTO wiki_page_content ( page_id, content, create_user_id, create_user_name, create_time, preview ) VALUES ( 3, '', 1, '系统管理员', '2024年5月10日下午5:34:24', '' )
+[2024-05-10 17:34:24][INFO ][SqlLogInterceptor] INSERT INTO user_message ( sys_type, msg_type, data_id, data_desc, msg_content, msg_status, operator_user_id, operator_user_name, accept_user_id, creation_time ) VALUES ( 2, 2, 3, '新建文档', '您创建了‘新建文档’', 1, 1, '系统管理员', 1, '2024年5月10日下午5:34:24' )
+[2024-05-10 17:34:24][INFO ][SqlLogInterceptor] INSERT INTO wiki_page_history ( page_id, create_user_id, create_user_name, create_time, del_flag, content ) VALUES ( 3, 1, '系统管理员', '2024年5月10日下午5:34:24', 0, [B@e0b77e0 )
+[2024-05-10 17:34:24][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：90ms，URI：/zyplayer-doc-wiki/page/update
+[2024-05-10 17:34:24][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 17:34:24][INFO ][SqlLogInterceptor] SELECT a.*,b.tag_name AS tags,b.share_status as shareStatus from wiki_page a left join wiki_page_template b on a.space_id =b.space_id and a.id = b.page_id where a.del_flag = 0 and a.space_id =1
+[2024-05-10 17:34:24][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：18ms，URI：/zyplayer-doc-wiki/page/list
+[2024-05-10 17:34:24][INFO ][SqlLogInterceptor] SELECT id,space_id,name,parent_id,node_type,zan_num,edit_type,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,view_num,seq_no,editor_type FROM wiki_page WHERE id=3 
+[2024-05-10 17:34:24][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：1ms，URI：/zyplayer-doc-wiki/page/lock
+[2024-05-10 17:34:24][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 17:34:24][INFO ][SqlLogInterceptor] SELECT id,page_id,content,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,preview FROM wiki_page_content WHERE (page_id = 3)
+[2024-05-10 17:34:24][INFO ][SqlLogInterceptor] SELECT id,page_id,file_name,file_url,uuid,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,download_num,file_size,file_source FROM wiki_page_file WHERE (page_id = 3 AND del_flag = 0 AND file_source = 1)
+[2024-05-10 17:34:24][INFO ][SqlLogInterceptor] SELECT id,page_id,comment_id,create_user_id,create_user_name,create_time,yn FROM wiki_page_zan WHERE (page_id = 3 AND create_user_id = 1 AND yn = 1)
+[2024-05-10 17:34:24][INFO ][SqlLogInterceptor] UPDATE wiki_page SET view_num=1 WHERE id=3
+[2024-05-10 17:34:24][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：95ms，URI：/zyplayer-doc-wiki/page/detail
+[2024-05-10 17:34:31][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 17:34:31][INFO ][SqlLogInterceptor] select max(seq_no) from wiki_page where space_id = 1 and parent_id=0 and del_flag=0
+[2024-05-10 17:34:31][INFO ][SqlLogInterceptor] INSERT INTO wiki_page ( space_id, name, parent_id, create_user_id, create_user_name, create_time, update_time, seq_no, editor_type ) VALUES ( 1, '新建文档', 0, 1, '系统管理员', '2024年5月10日下午5:34:31', '2024年5月10日下午5:34:31', 4, 1 )
+[2024-05-10 17:34:31][INFO ][SqlLogInterceptor] update wiki_page a join ( SELECT id, @rownum := @rownum + 1 AS rownum FROM (SELECT @rownum := 0) t, wiki_page where parent_id = 0 and space_id = 1 ORDER BY seq_no ASC, update_time DESC ) b on a.id = b.id set seq_no = b.rownum where a.parent_id = 0 and a.space_id = 1;
+[2024-05-10 17:34:31][INFO ][SqlLogInterceptor] INSERT INTO wiki_page_content ( page_id, content, create_user_id, create_user_name, create_time, preview ) VALUES ( 4, '', 1, '系统管理员', '2024年5月10日下午5:34:31', '' )
+[2024-05-10 17:34:31][INFO ][SqlLogInterceptor] INSERT INTO user_message ( sys_type, msg_type, data_id, data_desc, msg_content, msg_status, operator_user_id, operator_user_name, accept_user_id, creation_time ) VALUES ( 2, 2, 4, '新建文档', '您创建了‘新建文档’', 1, 1, '系统管理员', 1, '2024年5月10日下午5:34:31' )
+[2024-05-10 17:34:31][INFO ][SqlLogInterceptor] INSERT INTO wiki_page_history ( page_id, create_user_id, create_user_name, create_time, del_flag, content ) VALUES ( 4, 1, '系统管理员', '2024年5月10日下午5:34:31', 0, [B@7627d216 )
+[2024-05-10 17:34:31][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：77ms，URI：/zyplayer-doc-wiki/page/update
+[2024-05-10 17:34:31][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 17:34:31][INFO ][SqlLogInterceptor] SELECT a.*,b.tag_name AS tags,b.share_status as shareStatus from wiki_page a left join wiki_page_template b on a.space_id =b.space_id and a.id = b.page_id where a.del_flag = 0 and a.space_id =1
+[2024-05-10 17:34:31][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：12ms，URI：/zyplayer-doc-wiki/page/list
+[2024-05-10 17:34:31][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：2ms，URI：/zyplayer-doc-wiki/page/lock
+[2024-05-10 17:34:31][INFO ][SqlLogInterceptor] SELECT id,space_id,name,parent_id,node_type,zan_num,edit_type,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,view_num,seq_no,editor_type FROM wiki_page WHERE id=4 
+[2024-05-10 17:34:31][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 17:34:31][INFO ][SqlLogInterceptor] SELECT id,page_id,content,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,preview FROM wiki_page_content WHERE (page_id = 4)
+[2024-05-10 17:34:32][INFO ][SqlLogInterceptor] SELECT id,page_id,file_name,file_url,uuid,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,download_num,file_size,file_source FROM wiki_page_file WHERE (page_id = 4 AND del_flag = 0 AND file_source = 1)
+[2024-05-10 17:34:32][INFO ][SqlLogInterceptor] SELECT id,page_id,comment_id,create_user_id,create_user_name,create_time,yn FROM wiki_page_zan WHERE (page_id = 4 AND create_user_id = 1 AND yn = 1)
+[2024-05-10 17:34:32][INFO ][SqlLogInterceptor] UPDATE wiki_page SET view_num=1 WHERE id=4
+[2024-05-10 17:34:32][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：35ms，URI：/zyplayer-doc-wiki/page/detail
+[2024-05-10 17:34:36][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：1ms，URI：/system/info/upgrade
+[2024-05-10 17:34:36][INFO ][SqlLogInterceptor] SELECT id,space_id,user_id,create_time,del_flag FROM wiki_space_favorite WHERE (user_id = 1 AND del_flag = 0)
+[2024-05-10 17:34:36][INFO ][SqlLogInterceptor] SELECT id,user_id,name,value,create_time,del_flag FROM user_setting WHERE (user_id = 1 AND name = 'wiki_only_show_favorite' AND del_flag = 0)
+[2024-05-10 17:34:36][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 17:34:36][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 17:34:36][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：32ms，URI：/zyplayer-doc-wiki/space/list
+[2024-05-10 17:34:36][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 17:34:36][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 17:34:36][INFO ][SqlLogInterceptor] SELECT a.*,b.tag_name AS tags,b.share_status as shareStatus from wiki_page a left join wiki_page_template b on a.space_id =b.space_id and a.id = b.page_id where a.del_flag = 0 and a.space_id =1
+[2024-05-10 17:34:36][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：10ms，URI：/zyplayer-doc-wiki/page/list
+[2024-05-10 17:34:36][INFO ][SqlLogInterceptor] select a.space_id as spaceId, a.id as pageId, a.zan_num as zanNum, a.view_num as viewNum, a.create_user_name as createUserName, a.update_user_name as updateUserName, a.create_time as createTime, a.update_time as updateTime, a.name as pageTitle, b.preview as previewContent from wiki_page a join wiki_page_content b on b.page_id = a.id where a.del_flag = 0 and a.editor_type != 0 and a.space_id in ( 1 ) order by a.update_time desc limit 15
+[2024-05-10 17:34:36][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：18ms，URI：/zyplayer-doc-wiki/page/news
+[2024-05-10 17:35:10][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：3ms，URI：/system/info/upgrade
+[2024-05-10 17:35:55][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：3ms，URI：/system/info/upgrade
+[2024-05-10 17:35:57][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：2ms，URI：/logout
+[2024-05-10 17:35:58][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：1ms，URI：/system/info/upgrade
+[2024-05-10 17:36:05][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：1ms，URI：/system/info/upgrade
+[2024-05-10 17:36:16][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：6ms，URI：/system/info/upgrade
+[2024-05-10 17:36:19][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：1ms，URI：/system/info/upgrade
+[2024-05-10 17:36:30][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：16ms，URI：/system/info/upgrade
+[2024-05-10 17:40:07][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：12ms，URI：/system/info/upgrade
+[2024-05-10 17:40:53][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：1ms，URI：/system/info/upgrade
+[2024-05-10 17:42:27][INFO ][ThreadPoolTaskScheduler] Shutting down ExecutorService 'taskScheduler'
+[2024-05-10 17:42:27][INFO ][ThreadPoolTaskExecutor] Shutting down ExecutorService 'myTaskExecutor'
+[2024-05-10 17:42:27][INFO ][DruidDataSource] {dataSource-1} closing ...
+[2024-05-10 17:42:27][INFO ][DruidDataSource] {dataSource-1} closed
+[2024-05-10 20:22:29][INFO ][Application] Starting Application on taozhuodeMacBook-Pro.local with PID 38403 (/Users/taozhuo/IdeaProjects/taozhuo/github/player-doc/zyplayer-doc-manage/target/classes started by taozhuo in /Users/taozhuo/IdeaProjects/taozhuo/github/player-doc)
+[2024-05-10 20:22:29][INFO ][Application] No active profile set, falling back to default profiles: default
+[2024-05-10 20:22:30][INFO ][TomcatWebServer] Tomcat initialized with port(s): 8083 (http)
+[2024-05-10 20:22:30][INFO ][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8083"]
+[2024-05-10 20:22:30][INFO ][StandardService] Starting service [Tomcat]
+[2024-05-10 20:22:30][INFO ][StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2024-05-10 20:22:30][INFO ][[/]] Initializing Spring embedded WebApplicationContext
+[2024-05-10 20:22:30][INFO ][ContextLoader] Root WebApplicationContext: initialization completed in 943 ms
+[2024-05-10 20:22:31][INFO ][DruidDataSource] {dataSource-1,zyplayer-doc-db-1} inited
+[2024-05-10 20:22:31][WARN ][ReflectLambdaMeta] Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @146dfe6
+[2024-05-10 20:22:31][INFO ][SqlLogInterceptor] SELECT id,config_key,config_value,created,create_user_id,create_user,modified,modify_user_id,modify_user,yn FROM system_config WHERE (config_key = 'doc_system_version')
+[2024-05-10 20:22:31][INFO ][UpgradeSystemDdlTask] 当前数据库DDL已是最新版本：1.1.6
+[2024-05-10 20:22:32][INFO ][ThreadPoolTaskExecutor] Initializing ExecutorService
+[2024-05-10 20:22:32][INFO ][ThreadPoolTaskExecutor] Initializing ExecutorService 'myTaskExecutor'
+[2024-05-10 20:22:32][INFO ][ThreadPoolTaskScheduler] Initializing ExecutorService 'taskScheduler'
+[2024-05-10 20:22:32][INFO ][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8083"]
+[2024-05-10 20:22:32][INFO ][TomcatWebServer] Tomcat started on port(s): 8083 (http) with context path ''
+[2024-05-10 20:22:32][INFO ][Application] Started Application in 3.219 seconds (JVM running for 4.039)
+[2024-05-10 20:22:32][INFO ][ZyplayerConsolePrint] 
+--------------------------------------------------------------
+		     zyplayer-doc启动完成，当前版本：1.1.6
+	访问地址：http://127.0.0.1:8083/
+
+				↓zyplayer-doc模块的启动情况
+				------------------------
+                 Db模块启动情况为：启动成功
+               Wiki模块启动情况为：启动成功
+                Api模块启动情况为：启动成功
+--------------------------------------------------------------
+	
+[2024-05-10 20:22:35][INFO ][[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 20:22:35][INFO ][DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[2024-05-10 20:22:35][INFO ][DispatcherServlet] Completed initialization in 5 ms
+[2024-05-10 20:22:35][INFO ][SqlLogInterceptor] SELECT id,user_no,password,user_name,email,avatar,del_flag,create_uid,creation_time,update_time,phone,sex FROM user_info WHERE (user_no = 'zyplayer' AND del_flag = 0)
+[2024-05-10 20:22:35][INFO ][SqlLogInterceptor] SELECT id,user_id,auth_id,create_uid,update_uid,del_flag,creation_time,update_time,sys_type,sys_module_type,sys_module_id FROM user_auth WHERE (user_id = 1 AND del_flag = '0')
+[2024-05-10 20:22:35][INFO ][SqlLogInterceptor] SELECT id,auth_name,auth_desc,can_edit,create_uid,creation_time FROM auth_info WHERE id IN ( 1 , 2 , 10 )
+[2024-05-10 20:22:35][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：72ms，URI：/login
+[2024-05-10 20:22:36][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：2ms，URI：/tokenAuth
+[2024-05-10 20:22:36][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：16ms，URI：/system/info/upgrade
+[2024-05-10 20:22:36][INFO ][SqlLogInterceptor] SELECT id,space_id,user_id,create_time,del_flag FROM wiki_space_favorite WHERE (user_id = 1 AND del_flag = 0)
+[2024-05-10 20:22:36][INFO ][SqlLogInterceptor] SELECT id,user_id,name,value,create_time,del_flag FROM user_setting WHERE (user_id = 1 AND name = 'wiki_only_show_favorite' AND del_flag = 0)
+[2024-05-10 20:22:36][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 20:22:36][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 20:22:36][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：100ms，URI：/zyplayer-doc-wiki/space/list
+[2024-05-10 20:22:36][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 20:22:36][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 20:22:36][INFO ][SqlLogInterceptor] SELECT a.*,b.tag_name AS tags,b.share_status as shareStatus from wiki_page a left join wiki_page_template b on a.space_id =b.space_id and a.id = b.page_id where a.del_flag = 0 and a.space_id =1
+[2024-05-10 20:22:36][INFO ][SqlLogInterceptor] select a.space_id as spaceId, a.id as pageId, a.zan_num as zanNum, a.view_num as viewNum, a.create_user_name as createUserName, a.update_user_name as updateUserName, a.create_time as createTime, a.update_time as updateTime, a.name as pageTitle, b.preview as previewContent from wiki_page a join wiki_page_content b on b.page_id = a.id where a.del_flag = 0 and a.editor_type != 0 and a.space_id in ( 1 ) order by a.update_time desc limit 15
+[2024-05-10 20:22:36][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：33ms，URI：/zyplayer-doc-wiki/page/news
+[2024-05-10 20:22:36][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：33ms，URI：/zyplayer-doc-wiki/page/list
+[2024-05-10 20:24:17][INFO ][ThreadPoolTaskScheduler] Shutting down ExecutorService 'taskScheduler'
+[2024-05-10 20:24:17][INFO ][ThreadPoolTaskExecutor] Shutting down ExecutorService 'myTaskExecutor'
+[2024-05-10 20:24:17][INFO ][DruidDataSource] {dataSource-1} closing ...
+[2024-05-10 20:24:17][INFO ][DruidDataSource] {dataSource-1} closed
+[2024-05-10 20:24:20][INFO ][Application] Starting Application on taozhuodeMacBook-Pro.local with PID 39299 (/Users/taozhuo/IdeaProjects/taozhuo/github/player-doc/zyplayer-doc-manage/target/classes started by taozhuo in /Users/taozhuo/IdeaProjects/taozhuo/github/player-doc)
+[2024-05-10 20:24:20][INFO ][Application] No active profile set, falling back to default profiles: default
+[2024-05-10 20:24:21][INFO ][TomcatWebServer] Tomcat initialized with port(s): 8083 (http)
+[2024-05-10 20:24:21][INFO ][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8083"]
+[2024-05-10 20:24:21][INFO ][StandardService] Starting service [Tomcat]
+[2024-05-10 20:24:21][INFO ][StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2024-05-10 20:24:21][INFO ][[/]] Initializing Spring embedded WebApplicationContext
+[2024-05-10 20:24:21][INFO ][ContextLoader] Root WebApplicationContext: initialization completed in 706 ms
+[2024-05-10 20:24:22][INFO ][DruidDataSource] {dataSource-1,zyplayer-doc-db-1} inited
+[2024-05-10 20:24:22][WARN ][ReflectLambdaMeta] Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @146dfe6
+[2024-05-10 20:24:22][INFO ][SqlLogInterceptor] SELECT id,config_key,config_value,created,create_user_id,create_user,modified,modify_user_id,modify_user,yn FROM system_config WHERE (config_key = 'doc_system_version')
+[2024-05-10 20:24:22][INFO ][UpgradeSystemDdlTask] 当前数据库DDL已是最新版本：1.1.6
+[2024-05-10 20:24:23][INFO ][ThreadPoolTaskExecutor] Initializing ExecutorService
+[2024-05-10 20:24:23][INFO ][ThreadPoolTaskExecutor] Initializing ExecutorService 'myTaskExecutor'
+[2024-05-10 20:24:23][INFO ][ThreadPoolTaskScheduler] Initializing ExecutorService 'taskScheduler'
+[2024-05-10 20:24:23][INFO ][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8083"]
+[2024-05-10 20:24:23][INFO ][TomcatWebServer] Tomcat started on port(s): 8083 (http) with context path ''
+[2024-05-10 20:24:23][INFO ][Application] Started Application in 2.868 seconds (JVM running for 3.381)
+[2024-05-10 20:24:23][INFO ][ZyplayerConsolePrint] 
+--------------------------------------------------------------
+		     zyplayer-doc启动完成，当前版本：1.1.6
+	访问地址：http://127.0.0.1:8083/
+
+				↓zyplayer-doc模块的启动情况
+				------------------------
+                 Db模块启动情况为：启动成功
+               Wiki模块启动情况为：启动成功
+                Api模块启动情况为：启动成功
+--------------------------------------------------------------
+	
+[2024-05-10 20:24:26][INFO ][[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 20:24:26][INFO ][DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[2024-05-10 20:24:26][INFO ][DispatcherServlet] Completed initialization in 8 ms
+[2024-05-10 20:24:26][INFO ][UserLoginInterceptor] IP：127.0.0.1，总耗时：7ms，URI：/doc-console.html
+[2024-05-10 20:24:26][INFO ][UserLoginInterceptor] IP：127.0.0.1，总耗时：43ms，URI：/system/info/module
+[2024-05-10 20:24:26][INFO ][UserLoginInterceptor] IP：127.0.0.1，总耗时：44ms，URI：/system/info/upgrade
+[2024-05-10 20:24:26][INFO ][UserLoginInterceptor] IP：127.0.0.1，总耗时：44ms，URI：/system/info/upgrade
+[2024-05-10 20:24:26][INFO ][UserLoginInterceptor] IP：127.0.0.1，总耗时：1ms，URI：/system/info/module
+[2024-05-10 20:24:52][INFO ][SqlLogInterceptor] SELECT id,user_no,password,user_name,email,avatar,del_flag,create_uid,creation_time,update_time,phone,sex FROM user_info WHERE (user_no = 'zyplayer' AND del_flag = 0)
+[2024-05-10 20:24:52][INFO ][SqlLogInterceptor] SELECT id,user_id,auth_id,create_uid,update_uid,del_flag,creation_time,update_time,sys_type,sys_module_type,sys_module_id FROM user_auth WHERE (user_id = 1 AND del_flag = '0')
+[2024-05-10 20:24:52][INFO ][SqlLogInterceptor] SELECT id,auth_name,auth_desc,can_edit,create_uid,creation_time FROM auth_info WHERE id IN ( 1 , 2 , 10 )
+[2024-05-10 20:24:52][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：117ms，URI：/login
+[2024-05-10 20:25:07][INFO ][SqlLogInterceptor] SELECT id,user_no,password,user_name,email,avatar,del_flag,create_uid,creation_time,update_time,phone,sex FROM user_info WHERE (user_no = 'zyplayer' AND del_flag = 0)
+[2024-05-10 20:25:07][INFO ][SqlLogInterceptor] SELECT id,user_id,auth_id,create_uid,update_uid,del_flag,creation_time,update_time,sys_type,sys_module_type,sys_module_id FROM user_auth WHERE (user_id = 1 AND del_flag = '0')
+[2024-05-10 20:25:07][INFO ][SqlLogInterceptor] SELECT id,auth_name,auth_desc,can_edit,create_uid,creation_time FROM auth_info WHERE id IN ( 1 , 2 , 10 )
+[2024-05-10 20:25:07][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：37ms，URI：/login
+[2024-05-10 20:25:07][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：2ms，URI：/doc-wiki.html
+[2024-05-10 20:25:07][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：1ms，URI：/tokenAuth
+[2024-05-10 20:25:07][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：23ms，URI：/system/info/upgrade
+[2024-05-10 20:25:07][INFO ][SqlLogInterceptor] SELECT id,space_id,user_id,create_time,del_flag FROM wiki_space_favorite WHERE (user_id = 1 AND del_flag = 0)
+[2024-05-10 20:25:07][INFO ][SqlLogInterceptor] SELECT id,user_id,name,value,create_time,del_flag FROM user_setting WHERE (user_id = 1 AND name = 'wiki_only_show_favorite' AND del_flag = 0)
+[2024-05-10 20:25:08][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 20:25:08][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 20:25:08][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：98ms，URI：/zyplayer-doc-wiki/space/list
+[2024-05-10 20:25:08][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 20:25:08][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 20:25:08][INFO ][SqlLogInterceptor] select a.space_id as spaceId, a.id as pageId, a.zan_num as zanNum, a.view_num as viewNum, a.create_user_name as createUserName, a.update_user_name as updateUserName, a.create_time as createTime, a.update_time as updateTime, a.name as pageTitle, b.preview as previewContent from wiki_page a join wiki_page_content b on b.page_id = a.id where a.del_flag = 0 and a.editor_type != 0 and a.space_id in ( 1 ) order by a.update_time desc limit 15
+[2024-05-10 20:25:08][INFO ][SqlLogInterceptor] SELECT a.*,b.tag_name AS tags,b.share_status as shareStatus from wiki_page a left join wiki_page_template b on a.space_id =b.space_id and a.id = b.page_id where a.del_flag = 0 and a.space_id =1
+[2024-05-10 20:25:08][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：24ms，URI：/zyplayer-doc-wiki/page/news
+[2024-05-10 20:25:08][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：38ms，URI：/zyplayer-doc-wiki/page/list
+[2024-05-10 20:25:13][INFO ][SqlLogInterceptor] SELECT id,user_no,password,user_name,email,avatar,del_flag,create_uid,creation_time,update_time,phone,sex FROM user_info WHERE id=1 
+[2024-05-10 20:25:13][INFO ][SqlLogInterceptor] SELECT id,user_id,name,value,create_time,del_flag FROM user_setting WHERE (user_id = 1 AND name = 'wiki_only_show_favorite' AND del_flag = 0)
+[2024-05-10 20:25:13][INFO ][SqlLogInterceptor] SELECT id,user_id,name,value,create_time,del_flag FROM user_setting WHERE (user_id = 1 AND name = 'wiki_only_show_favorite')
+[2024-05-10 20:25:13][INFO ][SqlLogInterceptor] SELECT id,space_id,user_id,create_time,del_flag FROM wiki_space_favorite WHERE (user_id = 1 AND del_flag = 0)
+[2024-05-10 20:25:13][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：8ms，URI：/zyplayer-doc-wiki/space/setting/list
+[2024-05-10 20:25:13][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：16ms，URI：/user/info/selfInfo
+[2024-05-10 20:25:13][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 20:25:13][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 20:25:13][INFO ][SqlLogInterceptor] SELECT id,user_id,name,value,create_time,del_flag FROM user_setting WHERE id=1 
+[2024-05-10 20:25:13][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：30ms，URI：/zyplayer-doc-wiki/space/list
+[2024-05-10 20:25:13][INFO ][SqlLogInterceptor] UPDATE user_setting SET user_id=1, name='wiki_only_show_favorite', value='0', del_flag=0 WHERE id=1
+[2024-05-10 20:25:13][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：35ms，URI：/zyplayer-doc-wiki/space/setting/update
+[2024-05-10 20:25:13][INFO ][SqlLogInterceptor] SELECT id,space_id,user_id,create_time,del_flag FROM wiki_space_favorite WHERE (user_id = 1 AND del_flag = 0)
+[2024-05-10 20:25:13][INFO ][SqlLogInterceptor] SELECT id,user_id,name,value,create_time,del_flag FROM user_setting WHERE (user_id = 1 AND name = 'wiki_only_show_favorite' AND del_flag = 0)
+[2024-05-10 20:25:13][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 20:25:13][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE (del_flag = 0 AND ((type = 3 AND create_user_id = 1) OR type IN (1,2)))
+[2024-05-10 20:25:13][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：27ms，URI：/zyplayer-doc-wiki/space/list
+[2024-05-10 20:25:13][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 20:25:13][INFO ][SqlLogInterceptor] SELECT a.*,b.tag_name AS tags,b.share_status as shareStatus from wiki_page a left join wiki_page_template b on a.space_id =b.space_id and a.id = b.page_id where a.del_flag = 0 and a.space_id =1
+[2024-05-10 20:25:13][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：5ms，URI：/zyplayer-doc-wiki/page/list
+[2024-05-10 20:25:14][INFO ][SqlLogInterceptor] SELECT id,space_id,name,parent_id,node_type,zan_num,edit_type,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,view_num,seq_no,editor_type FROM wiki_page WHERE id=1 
+[2024-05-10 20:25:14][INFO ][SqlLogInterceptor] SELECT id,space_id,name,parent_id,node_type,zan_num,edit_type,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,view_num,seq_no,editor_type FROM wiki_page WHERE id=1 
+[2024-05-10 20:25:14][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 20:25:14][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 20:25:14][INFO ][SqlLogInterceptor] SELECT id,page_id,content,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,preview FROM wiki_page_content WHERE (page_id = 1)
+[2024-05-10 20:25:14][INFO ][SqlLogInterceptor] SELECT id,sys_type,msg_type,data_id,data_desc,msg_content,msg_status,operator_user_id,operator_user_name,affect_user_id,affect_user_name,accept_user_id,creation_time FROM user_message WHERE (accept_user_id = 1 AND sys_type = 2 AND msg_status NOT IN (2)) ORDER BY msg_status ASC,creation_time DESC
+[2024-05-10 20:25:14][INFO ][SqlLogInterceptor] SELECT id,create_user_id,create_user_name,page_id,create_time FROM wiki_page_history WHERE (page_id = 1 AND del_flag = 0) ORDER BY id DESC
+[2024-05-10 20:25:14][INFO ][SqlLogInterceptor] SELECT id,sys_type,msg_type,data_id,data_desc,msg_content,msg_status,operator_user_id,operator_user_name,affect_user_id,affect_user_name,accept_user_id,creation_time FROM user_message WHERE (accept_user_id = 1 AND sys_type = 2 AND msg_status NOT IN (2)) ORDER BY msg_status ASC,creation_time DESC
+[2024-05-10 20:25:14][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：32ms，URI：/zyplayer-doc-wiki/page/history/list
+[2024-05-10 20:25:14][INFO ][SqlLogInterceptor] SELECT id,page_id,file_name,file_url,uuid,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,download_num,file_size,file_source FROM wiki_page_file WHERE (page_id = 1 AND del_flag = 0 AND file_source = 1)
+[2024-05-10 20:25:14][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：34ms，URI：/user/message/list
+[2024-05-10 20:25:14][INFO ][SqlLogInterceptor] SELECT id,page_id,comment_id,create_user_id,create_user_name,create_time,yn FROM wiki_page_zan WHERE (page_id = 1 AND create_user_id = 1 AND yn = 1)
+[2024-05-10 20:25:14][INFO ][SqlLogInterceptor] UPDATE wiki_page SET view_num=3 WHERE id=1
+[2024-05-10 20:25:14][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：72ms，URI：/zyplayer-doc-wiki/page/detail
+[2024-05-10 20:25:14][INFO ][SqlLogInterceptor] SELECT id,space_id,name,parent_id,node_type,zan_num,edit_type,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,view_num,seq_no,editor_type FROM wiki_page WHERE id=1 
+[2024-05-10 20:25:14][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 20:25:14][INFO ][SqlLogInterceptor] SELECT id,page_id,parent_id,content,create_user_id,create_user_name,create_time,del_flag FROM wiki_page_comment WHERE (del_flag = 0 AND page_id = 1)
+[2024-05-10 20:25:14][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：18ms，URI：/zyplayer-doc-wiki/page/comment/list
+[2024-05-10 20:25:15][INFO ][SqlLogInterceptor] SELECT id,space_id,name,parent_id,node_type,zan_num,edit_type,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,view_num,seq_no,editor_type FROM wiki_page WHERE id=2 
+[2024-05-10 20:25:15][INFO ][SqlLogInterceptor] SELECT id,space_id,name,parent_id,node_type,zan_num,edit_type,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,view_num,seq_no,editor_type FROM wiki_page WHERE id=2 
+[2024-05-10 20:25:15][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 20:25:15][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 20:25:15][INFO ][SqlLogInterceptor] SELECT id,page_id,content,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,preview FROM wiki_page_content WHERE (page_id = 2)
+[2024-05-10 20:25:15][INFO ][SqlLogInterceptor] SELECT id,create_user_id,create_user_name,page_id,create_time FROM wiki_page_history WHERE (page_id = 2 AND del_flag = 0) ORDER BY id DESC
+[2024-05-10 20:25:15][INFO ][SqlLogInterceptor] SELECT id,page_id,file_name,file_url,uuid,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,download_num,file_size,file_source FROM wiki_page_file WHERE (page_id = 2 AND del_flag = 0 AND file_source = 1)
+[2024-05-10 20:25:15][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：20ms，URI：/zyplayer-doc-wiki/page/history/list
+[2024-05-10 20:25:15][INFO ][SqlLogInterceptor] SELECT id,page_id,comment_id,create_user_id,create_user_name,create_time,yn FROM wiki_page_zan WHERE (page_id = 2 AND create_user_id = 1 AND yn = 1)
+[2024-05-10 20:25:15][INFO ][SqlLogInterceptor] UPDATE wiki_page SET view_num=3 WHERE id=2
+[2024-05-10 20:25:15][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：42ms，URI：/zyplayer-doc-wiki/page/detail
+[2024-05-10 20:25:15][INFO ][SqlLogInterceptor] SELECT id,space_id,name,parent_id,node_type,zan_num,edit_type,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,view_num,seq_no,editor_type FROM wiki_page WHERE id=2 
+[2024-05-10 20:25:15][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 20:25:15][INFO ][SqlLogInterceptor] SELECT id,page_id,parent_id,content,create_user_id,create_user_name,create_time,del_flag FROM wiki_page_comment WHERE (del_flag = 0 AND page_id = 2)
+[2024-05-10 20:25:15][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：13ms，URI：/zyplayer-doc-wiki/page/comment/list
+[2024-05-10 20:25:16][INFO ][SqlLogInterceptor] SELECT id,space_id,name,parent_id,node_type,zan_num,edit_type,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,view_num,seq_no,editor_type FROM wiki_page WHERE id=3 
+[2024-05-10 20:25:16][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 20:25:16][INFO ][SqlLogInterceptor] SELECT id,space_id,name,parent_id,node_type,zan_num,edit_type,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,view_num,seq_no,editor_type FROM wiki_page WHERE id=3 
+[2024-05-10 20:25:16][INFO ][SqlLogInterceptor] SELECT id,create_user_id,create_user_name,page_id,create_time FROM wiki_page_history WHERE (page_id = 3 AND del_flag = 0) ORDER BY id DESC
+[2024-05-10 20:25:16][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 20:25:16][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：17ms，URI：/zyplayer-doc-wiki/page/history/list
+[2024-05-10 20:25:16][INFO ][SqlLogInterceptor] SELECT id,page_id,content,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,preview FROM wiki_page_content WHERE (page_id = 3)
+[2024-05-10 20:25:16][INFO ][SqlLogInterceptor] SELECT id,page_id,file_name,file_url,uuid,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,download_num,file_size,file_source FROM wiki_page_file WHERE (page_id = 3 AND del_flag = 0 AND file_source = 1)
+[2024-05-10 20:25:16][INFO ][SqlLogInterceptor] SELECT id,page_id,comment_id,create_user_id,create_user_name,create_time,yn FROM wiki_page_zan WHERE (page_id = 3 AND create_user_id = 1 AND yn = 1)
+[2024-05-10 20:25:16][INFO ][SqlLogInterceptor] UPDATE wiki_page SET view_num=2 WHERE id=3
+[2024-05-10 20:25:16][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：36ms，URI：/zyplayer-doc-wiki/page/detail
+[2024-05-10 20:25:16][INFO ][SqlLogInterceptor] SELECT id,space_id,name,parent_id,node_type,zan_num,edit_type,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,view_num,seq_no,editor_type FROM wiki_page WHERE id=3 
+[2024-05-10 20:25:16][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 20:25:16][INFO ][SqlLogInterceptor] SELECT id,page_id,parent_id,content,create_user_id,create_user_name,create_time,del_flag FROM wiki_page_comment WHERE (del_flag = 0 AND page_id = 3)
+[2024-05-10 20:25:16][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：8ms，URI：/zyplayer-doc-wiki/page/comment/list
+[2024-05-10 20:25:17][INFO ][SqlLogInterceptor] SELECT id,space_id,name,parent_id,node_type,zan_num,edit_type,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,view_num,seq_no,editor_type FROM wiki_page WHERE id=4 
+[2024-05-10 20:25:17][INFO ][SqlLogInterceptor] SELECT id,space_id,name,parent_id,node_type,zan_num,edit_type,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,view_num,seq_no,editor_type FROM wiki_page WHERE id=4 
+[2024-05-10 20:25:17][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 20:25:17][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 20:25:17][INFO ][SqlLogInterceptor] SELECT id,page_id,content,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,preview FROM wiki_page_content WHERE (page_id = 4)
+[2024-05-10 20:25:17][INFO ][SqlLogInterceptor] SELECT id,create_user_id,create_user_name,page_id,create_time FROM wiki_page_history WHERE (page_id = 4 AND del_flag = 0) ORDER BY id DESC
+[2024-05-10 20:25:17][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：10ms，URI：/zyplayer-doc-wiki/page/history/list
+[2024-05-10 20:25:17][INFO ][SqlLogInterceptor] SELECT id,page_id,file_name,file_url,uuid,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,download_num,file_size,file_source FROM wiki_page_file WHERE (page_id = 4 AND del_flag = 0 AND file_source = 1)
+[2024-05-10 20:25:17][INFO ][SqlLogInterceptor] SELECT id,page_id,comment_id,create_user_id,create_user_name,create_time,yn FROM wiki_page_zan WHERE (page_id = 4 AND create_user_id = 1 AND yn = 1)
+[2024-05-10 20:25:17][INFO ][SqlLogInterceptor] UPDATE wiki_page SET view_num=2 WHERE id=4
+[2024-05-10 20:25:17][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：30ms，URI：/zyplayer-doc-wiki/page/detail
+[2024-05-10 20:25:17][INFO ][SqlLogInterceptor] SELECT id,space_id,name,parent_id,node_type,zan_num,edit_type,create_user_id,create_user_name,create_time,update_user_id,update_user_name,update_time,del_flag,view_num,seq_no,editor_type FROM wiki_page WHERE id=4 
+[2024-05-10 20:25:17][INFO ][SqlLogInterceptor] SELECT id,name,type,space_explain,edit_type,tree_lazy_load,open_doc,uuid,create_user_id,create_user_name,create_time,del_flag FROM wiki_space WHERE id=1 
+[2024-05-10 20:25:17][INFO ][SqlLogInterceptor] SELECT id,page_id,parent_id,content,create_user_id,create_user_name,create_time,del_flag FROM wiki_page_comment WHERE (del_flag = 0 AND page_id = 4)
+[2024-05-10 20:25:17][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：8ms，URI：/zyplayer-doc-wiki/page/comment/list
+[2024-05-10 20:25:25][INFO ][SqlLogInterceptor] SELECT id,sys_type,msg_type,data_id,data_desc,msg_content,msg_status,operator_user_id,operator_user_name,affect_user_id,affect_user_name,accept_user_id,creation_time FROM user_message WHERE (accept_user_id = 1 AND sys_type = 2 AND msg_status NOT IN (2)) ORDER BY msg_status ASC,creation_time DESC
+[2024-05-10 20:25:25][INFO ][SqlLogInterceptor] SELECT id,sys_type,msg_type,data_id,data_desc,msg_content,msg_status,operator_user_id,operator_user_name,affect_user_id,affect_user_name,accept_user_id,creation_time FROM user_message WHERE (accept_user_id = 1 AND sys_type = 2 AND msg_status NOT IN (2)) ORDER BY msg_status ASC,creation_time DESC
+[2024-05-10 20:25:25][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：12ms，URI：/user/message/list
+[2024-05-10 20:25:35][INFO ][SqlLogInterceptor] SELECT id,sys_type,msg_type,data_id,data_desc,msg_content,msg_status,operator_user_id,operator_user_name,affect_user_id,affect_user_name,accept_user_id,creation_time FROM user_message WHERE (accept_user_id = 1 AND sys_type = 2 AND msg_status NOT IN (2)) ORDER BY msg_status ASC,creation_time DESC
+[2024-05-10 20:25:35][INFO ][SqlLogInterceptor] SELECT id,sys_type,msg_type,data_id,data_desc,msg_content,msg_status,operator_user_id,operator_user_name,affect_user_id,affect_user_name,accept_user_id,creation_time FROM user_message WHERE (accept_user_id = 1 AND sys_type = 2 AND msg_status NOT IN (2)) ORDER BY msg_status ASC,creation_time DESC
+[2024-05-10 20:25:35][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：18ms，URI：/user/message/list
+[2024-05-10 20:25:45][INFO ][SqlLogInterceptor] SELECT id,sys_type,msg_type,data_id,data_desc,msg_content,msg_status,operator_user_id,operator_user_name,affect_user_id,affect_user_name,accept_user_id,creation_time FROM user_message WHERE (accept_user_id = 1 AND sys_type = 2 AND msg_status NOT IN (2)) ORDER BY msg_status ASC,creation_time DESC
+[2024-05-10 20:25:45][INFO ][SqlLogInterceptor] SELECT id,sys_type,msg_type,data_id,data_desc,msg_content,msg_status,operator_user_id,operator_user_name,affect_user_id,affect_user_name,accept_user_id,creation_time FROM user_message WHERE (accept_user_id = 1 AND sys_type = 2 AND msg_status NOT IN (2)) ORDER BY msg_status ASC,creation_time DESC
+[2024-05-10 20:25:45][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：13ms，URI：/user/message/list
+[2024-05-10 20:25:55][INFO ][SqlLogInterceptor] SELECT id,sys_type,msg_type,data_id,data_desc,msg_content,msg_status,operator_user_id,operator_user_name,affect_user_id,affect_user_name,accept_user_id,creation_time FROM user_message WHERE (accept_user_id = 1 AND sys_type = 2 AND msg_status NOT IN (2)) ORDER BY msg_status ASC,creation_time DESC
+[2024-05-10 20:25:55][INFO ][SqlLogInterceptor] SELECT id,sys_type,msg_type,data_id,data_desc,msg_content,msg_status,operator_user_id,operator_user_name,affect_user_id,affect_user_name,accept_user_id,creation_time FROM user_message WHERE (accept_user_id = 1 AND sys_type = 2 AND msg_status NOT IN (2)) ORDER BY msg_status ASC,creation_time DESC
+[2024-05-10 20:25:55][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：13ms，URI：/user/message/list
+[2024-05-10 20:26:05][INFO ][SqlLogInterceptor] SELECT id,sys_type,msg_type,data_id,data_desc,msg_content,msg_status,operator_user_id,operator_user_name,affect_user_id,affect_user_name,accept_user_id,creation_time FROM user_message WHERE (accept_user_id = 1 AND sys_type = 2 AND msg_status NOT IN (2)) ORDER BY msg_status ASC,creation_time DESC
+[2024-05-10 20:26:05][INFO ][SqlLogInterceptor] SELECT id,sys_type,msg_type,data_id,data_desc,msg_content,msg_status,operator_user_id,operator_user_name,affect_user_id,affect_user_name,accept_user_id,creation_time FROM user_message WHERE (accept_user_id = 1 AND sys_type = 2 AND msg_status NOT IN (2)) ORDER BY msg_status ASC,creation_time DESC
+[2024-05-10 20:26:05][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：9ms，URI：/user/message/list
+[2024-05-10 20:26:15][INFO ][SqlLogInterceptor] SELECT id,sys_type,msg_type,data_id,data_desc,msg_content,msg_status,operator_user_id,operator_user_name,affect_user_id,affect_user_name,accept_user_id,creation_time FROM user_message WHERE (accept_user_id = 1 AND sys_type = 2 AND msg_status NOT IN (2)) ORDER BY msg_status ASC,creation_time DESC
+[2024-05-10 20:26:15][INFO ][SqlLogInterceptor] SELECT id,sys_type,msg_type,data_id,data_desc,msg_content,msg_status,operator_user_id,operator_user_name,affect_user_id,affect_user_name,accept_user_id,creation_time FROM user_message WHERE (accept_user_id = 1 AND sys_type = 2 AND msg_status NOT IN (2)) ORDER BY msg_status ASC,creation_time DESC
+[2024-05-10 20:26:15][INFO ][UserLoginInterceptor] IP：0:0:0:0:0:0:0:1，总耗时：8ms，URI：/user/message/list

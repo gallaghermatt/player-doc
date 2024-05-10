@@ -1,18 +1,19 @@
 <template>
 	<div style="padding: 10px;height: 100%;box-sizing: border-box;background: #fafafa;">
 		<div style="margin-bottom: 5px">
-			<el-select :model-value="choiceSpace" filterable placeholder="选择空间" @change="spaceChangeEvents" style="width: 100%">
+			<el-select :model-value="choiceSpace" filterable placeholder="选择空间" @change="spaceChangeEvents"
+				style="width: 100%">
 				<el-option-group label="" v-if="!props.readOnly">
 					<el-option :key="-1" label="空间管理" :value="-1"></el-option>
 				</el-option-group>
 				<el-option-group label=""></el-option-group>
-				<el-option v-for="item in spaceOptions" :key="item.value" :label="item.label" :value="item.value"></el-option>
+				<el-option v-for="item in spaceOptions" :key="item.value" :label="item.label"
+					:value="item.value"></el-option>
 			</el-select>
 		</div>
 		<el-autocomplete v-model="searchKeywords" v-if="!props.readOnly" :fetch-suggestions="doSearchByKeywords"
-						 placeholder="在当前空间搜索"
-						 popper-class="search-autocomplete" style="width: 100%; margin: 10px 0"
-						 @select="handleSearchKeywordsSelect">
+			placeholder="在当前空间搜索" popper-class="search-autocomplete" style="width: 100%; margin: 10px 0"
+			@select="handleSearchKeywordsSelect">
 			<template v-slot="{ item }">
 				<div class="search-option-item">
 					<div class="title">
@@ -26,29 +27,21 @@
 			<el-row justify="space-between">
 				<el-col :span="12">
 					<el-tooltip style="margin: 4px" effect="dark" :content="descriptorForTree" placement="top">
-						<span style="color:#888;font-size: 12px;cursor: pointer;line-height: 32px;" @click="changeDropWownStatus">空间目录</span>
+						<span style="color:#888;font-size: 12px;cursor: pointer;line-height: 32px;"
+							@click="changeDropWownStatus">空间目录</span>
 					</el-tooltip>
 				</el-col>
 				<el-col :span="12" style="text-align: right;">
-					<slot name="addMenuDir"/>
+					<slot name="addMenuDir" />
 				</el-col>
 			</el-row>
 		</div>
 		<div class="wiki-page-tree-box">
-			<el-tree :class="explanClass"
-			         ref="wikiPageTreeRef"
-			         :current-node-key="props.nowPageId"
-			         :data="props.wikiPageList"
-			         :default-expanded-keys="wikiPageExpandedKeys"
-			         :expand-on-click-node="true"
-			         :filter-node-method="filterPageNode"
-			         :props="defaultProps"
-			         :draggable="!props.readOnly"
-			         highlight-current
-			         node-key="id"
-			         style="background-color: #fafafa"
-			         @node-click="handleNodeClick"
-			         @node-drop="handlePageDrop">
+			<el-tree :class="explanClass" ref="wikiPageTreeRef" :current-node-key="props.nowPageId"
+				:data="props.wikiPageList" :default-expanded-keys="wikiPageExpandedKeys" :expand-on-click-node="true"
+				:filter-node-method="filterPageNode" :props="defaultProps" :draggable="!props.readOnly"
+				highlight-current node-key="id" style="background-color: #fafafa" @node-click="handleNodeClick"
+				@node-drop="handlePageDrop">
 				<template v-if="!props.readOnly" v-slot="{ node, data }">
 					<slot name="addMenuNode" :node="node" :data="data"></slot>
 				</template>
@@ -58,12 +51,12 @@
 </template>
 
 <script setup>
-import {ref, defineProps, defineEmits, defineExpose} from 'vue';
-import {useRouter, useRoute} from "vue-router";
+import { ref, defineProps, defineEmits, defineExpose } from 'vue';
+import { useRouter, useRoute } from "vue-router";
 import pageApi from '../../assets/api/page'
-import {useStoreDisplay} from "@/store/wikiDisplay";
-import {useStorePageData} from "@/store/pageData";
 
+import { useStoreDisplay } from "@/store/wikiDisplay";
+import { useStorePageData } from "@/store/pageData";
 let emit = defineEmits(['doGetPageList', 'spaceChangeEvents', 'setNowPageId'])
 let searchKeywords = ref('');
 let descriptorForTree = ref("点击收起目录");
@@ -72,7 +65,7 @@ let explanClass = ref("el-tree");
 let wikiPageExpandedKeys = ref([]);
 let route = useRoute();
 let router = useRouter();
-let defaultProps = ref({children: 'children', label: 'name',});
+let defaultProps = ref({ children: 'children', label: 'name', });
 let wikiPage = ref({});
 let wikiPageTreeRef = ref();
 let storeDisplay = useStoreDisplay();
@@ -107,7 +100,7 @@ const doSearchByKeywords = (queryString, callback) => {
 		return
 	}
 	pageApi
-		.pageNews({spaceId: props.choiceSpace, keywords: queryString})
+		.pageNews({ spaceId: props.choiceSpace, keywords: queryString })
 		.then((json) => {
 			let spacePageNews = json.data || []
 			callback(spacePageNews)
@@ -115,8 +108,11 @@ const doSearchByKeywords = (queryString, callback) => {
 }
 const handleSearchKeywordsSelect = (item) => {
 	searchKeywords.value = ''
-	router.push({path: '/page/show', query: {pageId: item.pageId}})
+	router.push({ path: '/page/show', query: { pageId: item.pageId } })
 }
+
+
+
 
 const changeDropWownStatus = () => {
 	if (explan.value) {
@@ -148,14 +144,14 @@ const handleNodeClick = (data) => {
 		return
 	}
 	if (data.editorType !== 0) {
-		router.push({path: '/page/show', query: {pageId: data.id}})
+		router.push({ path: '/page/show', query: { pageId: data.id } })
 	}
 }
 const handlePageDrop = (draggingNode, dropNode, dropType, ev) => {
 	console.log('tree drop: ', draggingNode.data, dropNode.data, dropType)
 	// 'prev'、'inner'、'next'
 	// before、after、inner
-	var param = {id: draggingNode.data.id, parentId: dropNode.data.parentId}
+	var param = { id: draggingNode.data.id, parentId: dropNode.data.parentId }
 	if (dropType == 'inner') {
 		param.parentId = dropNode.data.id
 	} else if (dropType == 'before') {
@@ -167,7 +163,5 @@ const handlePageDrop = (draggingNode, dropNode, dropType, ev) => {
 		emit('doGetPageList', node.id, node)
 	})
 }
-defineExpose({searchByKeywords})
+defineExpose({ searchByKeywords })
 </script>
-
-
