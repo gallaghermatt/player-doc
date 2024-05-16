@@ -107,15 +107,17 @@ public class LoginController {
 	 * token验证接口
 	 */
 	@RequestMapping(value = "/tokenAuth", method = RequestMethod.POST)
-	public DocResponseJson<Object> tokenAuth(HttpServletRequest request, HttpServletResponse response, String accessToken)  {
+	public DocResponseJson<Object> tokenAuth(HttpServletRequest request, HttpServletResponse response, String accessToken,Long id,String username )  {
 		if (StrUtil.isBlank(accessToken)) {
 			return DocResponseJson.warn("token不能为空");
 		}
-		DocUserUtil.setAccessToken(accessToken);
-		DocUserDetails userDetails = DocUserUtil.getCurrentUser();
-		if (userDetails == null) {
-			return DocResponseJson.warn("token无效");
-		}
+		QueryWrapper<UserInfo> queryWrapper = new QueryWrapper<>();
+		queryWrapper.eq("user_no", username);
+		queryWrapper.eq("del_flag", 0);
+		UserInfo userInfo = userInfoService.getOne(queryWrapper);
+		List<UserAuthInfo> userAuthSet = userAuthService.getUserAuthSet(id);
+		DocUserDetails userDetails = new DocUserDetails(userInfo.getId(), userInfo.getUserName(), userInfo.getPassword(), true, userAuthSet);
+		DocUserUtil.setCurrentUser(accessToken, userDetails);
 		// 放入cookie，过期时间：24小时
 		Cookie cookie = new Cookie("accessToken", accessToken);
 		cookie.setPath("/");
